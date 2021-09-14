@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
         <Switch>
-            <Route path="/browse">
+            <Route path="/signin">
                 <p>sign in page</p>
             </Route>
-            <Route path="/signin">
+            <Route path="/signup">
                 <p>sign up page</p>
             </Route>
             <Route path="/browse">
