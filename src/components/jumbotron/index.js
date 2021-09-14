@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Item, Inner } from './styles/jumbotron';
 
 function Jumbotron({ children, direction = 'row', ...restProps }) {
   return (

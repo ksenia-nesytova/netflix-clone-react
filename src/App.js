@@ -4,6 +4,7 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
+import Home from './pages/home'
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
                 <p>browse page</p>
             </Route>
             <Route path="/">
-                <p>main default</p>
+                <Home/>
             </Route>
         </Switch>
     </Router>
